@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IPOAlerts" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">@color/navbar_bluish</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Customize your theme here. -->
+    <style name="CollapsingToolbarLayoutTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@color/white</item>
+        <item name="android:text">@color/white</item>
+    </style>
+    <!-- Card View-->
+    <style name="CardBackground" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@color/silver</item>
+    </style>
+
+    <style name="CardImageBackground" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@color/white</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="LinkText" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColor">@color/navbar_bluish</item>
+    </style>
+
+</resources>

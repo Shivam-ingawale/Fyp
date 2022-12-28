@@ -1,0 +1,179 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabs.current.CalculatorFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/logo_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/ipo_alert_text"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="medicine.json"
+                        app:lottie_loop="true" />
+
+                    <TextView
+                        android:id="@+id/ipo_alert_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:contentDescription="@string/about_company"
+                        android:scaleType="fitCenter"
+                        android:text="Calculator"
+                        android:textSize="30sp"
+                        android:textStyle="italic|bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/logo_image"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/left_text_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/left_title_text_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/left_edit_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/right_edit_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95" />
+
+            <TextView
+                android:id="@+id/medicine_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/right_edit_guide"
+                app:layout_constraintStart_toStartOf="@id/left_title_text_guide"
+                app:layout_constraintTop_toBottomOf="@id/logo"
+                tools:text="Drug Name: Montelukast 4 mg and 5 mg chewable tablets or 4 mg granules packet " />
+
+            <TextView
+                android:id="@+id/weight_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Weight:"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/left_text_guide"
+                app:layout_constraintTop_toBottomOf="@id/medicine_name" />
+
+            <TextView
+                android:id="@+id/weight_unit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Weight Unit:"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@id/left_text_guide"
+                app:layout_constraintTop_toBottomOf="@+id/weight_text" />
+
+
+            <EditText
+                android:id="@+id/weight_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Weight"
+                android:imeOptions="actionDone"
+                android:inputType="number|numberDecimal"
+                android:lines="1"
+                android:numeric="decimal"
+                android:text=""
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/weight_text"
+                app:layout_constraintEnd_toEndOf="@id/right_edit_guide"
+                app:layout_constraintStart_toEndOf="@+id/left_edit_guide"
+                app:layout_constraintTop_toTopOf="@id/weight_text" />
+
+            <Spinner
+                android:id="@+id/weight_unit_edit_text"
+                android:layout_width="0dp"
+                android:spinnerMode="dropdown"
+                android:layout_height="35dp"
+                app:layout_constraintBottom_toBottomOf="@id/weight_unit_text"
+                app:layout_constraintEnd_toEndOf="@id/right_edit_guide"
+                app:layout_constraintStart_toEndOf="@+id/left_edit_guide"
+                app:layout_constraintTop_toTopOf="@id/weight_unit_text"/>
+
+
+            <Button
+                android:id="@+id/cal_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#8DBBF3"
+                android:text="Calculate"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/weight_unit_text" />
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="24dp"
+                android:text=""
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/right_edit_guide"
+                app:layout_constraintStart_toStartOf="@id/left_title_text_guide"
+                app:layout_constraintTop_toBottomOf="@+id/cal_button"
+                app:layout_constraintVertical_chainStyle="spread"
+                app:layout_constraintVertical_weight="1"
+                tools:text="enter weight unit enter weight unitenter weight unitenter weight unitenter weight unitenter weight unitenter weight unit" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

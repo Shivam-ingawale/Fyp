@@ -1,0 +1,30 @@
+[
+  {
+    "name": "allotment_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "watch_list_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [
+      "ipo_nav_graph",
+      "allotment_nav_graph"
+    ],
+    "deepLinks": []
+  },
+  {
+    "name": "details_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "ipo_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

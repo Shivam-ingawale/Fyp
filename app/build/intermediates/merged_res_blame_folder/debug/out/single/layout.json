@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/medicine_list_item.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/medicine_list_item.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_about_company.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_about_company.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ipo_main_item.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/ipo_main_item.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ipo_company_item.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/ipo_company_item.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_subscription_rate.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_subscription_rate.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_financials.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_financials.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_calculator.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_calculator.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_watch_list.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_watch_list.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_banner.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_banner.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_allotment.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_allotment.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_ipo_details.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_ipo_details.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/allotment_item.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/allotment_item.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_ipo_details.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_ipo_details.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_listing.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_listing.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_ipo_category.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_ipo_category.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_search_allotment.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_search_allotment.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_ipo.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/fragment_ipo.xml"
+    },
+    {
+        "merged": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/details_important_dates.xml",
+        "source": "/Users/shivam.ingawale/AndroidStudioProjects/Fyp/app/src/main/res/layout/details_important_dates.xml"
+    }
+]
